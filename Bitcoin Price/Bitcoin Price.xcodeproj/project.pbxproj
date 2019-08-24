@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CEA26B2311128200C3AB9D /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CEA26A2311128200C3AB9D /* Fonts.bundle */; };
 		18EA63282310FF06000C11DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA63272310FF06000C11DE /* AppDelegate.swift */; };
 		18EA632A2310FF06000C11DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA63292310FF06000C11DE /* ViewController.swift */; };
 		18EA632D2310FF06000C11DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA632B2310FF06000C11DE /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18CEA26A2311128200C3AB9D /* Fonts.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Fonts.bundle; sourceTree = "<group>"; };
 		18EA63242310FF06000C11DE /* Bitcoin Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EA63272310FF06000C11DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EA63292310FF06000C11DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		18EA635D2311006C000C11DE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18CEA26A2311128200C3AB9D /* Fonts.bundle */,
 				18EA632E2310FF06000C11DE /* Bitcoin_Price.xcdatamodeld */,
 			);
 			path = Resources;
@@ -227,7 +230,7 @@
 				18EA63202310FF06000C11DE /* Sources */,
 				18EA63212310FF06000C11DE /* Frameworks */,
 				18EA63222310FF06000C11DE /* Resources */,
-				0288A5024E2EFE85EEFA60DF /* [CP] Embed Pods Frameworks */,
+				8E812459C7D0A4BE8AF43362 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EA63352310FF06000C11DE /* LaunchScreen.storyboard in Resources */,
+				18CEA26B2311128200C3AB9D /* Fonts.bundle in Resources */,
 				18EA63322310FF06000C11DE /* Assets.xcassets in Resources */,
 				18EA632D2310FF06000C11DE /* Main.storyboard in Resources */,
 			);
@@ -347,23 +351,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0288A5024E2EFE85EEFA60DF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		495317EECDF4F04CB20CD92F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +371,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E812459C7D0A4BE8AF43362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E92963DE904B4D295BC50B6 /* [CP] Check Pods Manifest.lock */ = {
