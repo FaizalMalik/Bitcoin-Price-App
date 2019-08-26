@@ -7,10 +7,15 @@ target 'Bitcoin Price' do
 
   # Pods for Bitcoin Price
   
-  # Charts (Beautiful charts for iOS/tvOS/OSX)
-  # https://github.com/danielgindi/Charts
-  pod 'Charts'
+   # Charts (Beautiful charts for iOS/tvOS/OSX)
+   # https://github.com/danielgindi/Charts
+   pod 'Charts'
   
+  # Gradient Animation for views
+  # https://github.com/cruisediary/Pastel
+   pod "Pastel", :inhibit_warnings => true
+   
+   
   target 'Bitcoin PriceTests' do
     inherit! :search_paths
     # Pods for testing
