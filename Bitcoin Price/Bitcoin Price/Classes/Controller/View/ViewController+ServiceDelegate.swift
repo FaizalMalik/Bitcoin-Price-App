@@ -50,13 +50,12 @@ extension ViewController: HistoricPriceServiceDelegate {
             let dataEntry = ChartDataEntry(x: Double(position), y: Double(value.rate))
              values.append(dataEntry)
                position += 1.0
-           // let date = Date.fromString(value.date, dateFormat: "yyyy-MM-dd")
            
-            //values.append(ChartDataEntry(x: Double(x), y: Double(x)))
         }
         
         bodyView.historyView.setLoaded(true)
         bodyView.historyView.setPrices(firstPrice: firsPrice, lastPrice: lastPrice)
+        bodyView.priceView.setPriceYesterday(lastPrice)
         bodyView.historyView.setChartData(reference: ref, values: values)
         bodyView.historyView.spinnerView.hide()
         

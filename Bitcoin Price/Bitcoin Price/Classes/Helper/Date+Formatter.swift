@@ -29,3 +29,10 @@ extension Date {
     }
 
 }
+
+
+struct DateFomats {
+    
+    static let currentApiDateFormat = "yyyy-MM-dd"
+    
+}

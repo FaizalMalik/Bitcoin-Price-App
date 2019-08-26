@@ -123,8 +123,10 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <outlet property="hrsLabel" destination="c4z-gb-Zi3" id="ZOi-2J-Z1Y"/>
                                             <outlet property="priceLabel" destination="uvo-ij-IzH" id="xfA-kX-8fG"/>
                                             <outlet property="updatedLabel" destination="aM5-WQ-PG5" id="D9M-u7-fp1"/>
+                                            <outlet property="yesterChanges" destination="3U5-iM-gxt" id="Mwe-kf-DcD"/>
                                         </connections>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EQi-oO-YII" userLabel="Separator View">

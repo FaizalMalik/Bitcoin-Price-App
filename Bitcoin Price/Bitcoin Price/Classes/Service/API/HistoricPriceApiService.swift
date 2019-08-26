@@ -56,10 +56,9 @@ class HistoricPriceApiService: ApiService {
             endDate = Date().minus(days: 360)
 
         }
-//https://api.coindesk.com/v1/bpi/historical/close.json?start=2019-01-01&end=2019-01-31
         var params: [String: String] = [:]
-        params["end"] = Date().toString(dateFormat: "yyyy-MM-dd")
-        params["start"] = endDate.toString(dateFormat: "yyyy-MM-dd")
+        params["end"] = Date().toString(dateFormat: DateFomats.currentApiDateFormat)
+        params["start"] = endDate.toString(dateFormat: DateFomats.currentApiDateFormat)
        
 
         return params

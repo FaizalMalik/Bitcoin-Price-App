@@ -10,7 +10,7 @@ import Foundation
 
 extension Float {
 
-    func toPercentString() -> String {
+    func toPercentStringWithPlusOrMinus() -> String {
         let formatter = NumberFormatter()
         formatter.locale = Locale.current
         formatter.numberStyle = .percent
@@ -18,9 +18,25 @@ extension Float {
         formatter.maximumFractionDigits = 1
 
         let number = NSNumber(value: self)
+        if Float(truncating: number) > 0 {
+            return  "+" + (formatter.string(from: number) ?? "\(self)")
+        }
+        else{
+            return  "-" + (formatter.string(from: number) ?? "\(self)")
+        }
+        
+    }
+    func toPercentString() -> String {
+        let formatter = NumberFormatter()
+        formatter.locale = Locale.current
+        formatter.numberStyle = .percent
+        formatter.usesGroupingSeparator = true
+        formatter.maximumFractionDigits = 1
+        
+        let number = NSNumber(value: self)
         return formatter.string(from: number) ?? "\(self)"
     }
-
+    
     func toCurrencyString(fractionDigits: Int? = nil) -> String {
         let formatter = NumberFormatter()
         formatter.locale = Locale.current
@@ -40,4 +56,5 @@ extension Float {
         return formatter.string(from: number) ?? "\(self)"
     }
 
+    
 }
