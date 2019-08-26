@@ -953,6 +953,7 @@
 			baseConfigurationReference = C588772BF1479C94E7ED2C58 /* Pods-Bitcoin Price.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -971,6 +972,7 @@
 			baseConfigurationReference = B05C7BD22D3CB64708CD0224 /* Pods-Bitcoin Price.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
