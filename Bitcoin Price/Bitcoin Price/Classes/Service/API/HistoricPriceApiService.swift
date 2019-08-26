@@ -1,9 +1,9 @@
 //
 //  HistoricPriceApiService.swift
-//  BitPrice
+//  BitcoinPrice
 //
-//  Created by Bruno Tortato Furtado on 27/01/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
 
 import Alamofire
@@ -56,7 +56,7 @@ class HistoricPriceApiService: ApiService {
             endDate = Date().minus(days: 360)
 
         }
-
+//https://api.coindesk.com/v1/bpi/historical/close.json?start=2019-01-01&end=2019-01-31
         var params: [String: String] = [:]
         params["end"] = Date().toString(dateFormat: "yyyy-MM-dd")
         params["start"] = endDate.toString(dateFormat: "yyyy-MM-dd")

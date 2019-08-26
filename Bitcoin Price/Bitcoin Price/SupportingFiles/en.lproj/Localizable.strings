@@ -1,9 +1,9 @@
 /* 
   Localizable.strings
-  BitPrice
+  BitcoinPrice
 
-  Created by Bruno Tortato Furtado on 25/01/18.
-  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+  Created by Faizal on 24/08/19.
+  Copyright © 2019 Faizal . All rights reserved.
 */
 
 // MARK: - BodyPriceView
@@ -18,14 +18,14 @@
 // MARK: - ChatView
 
 "chart_view.no_data" = "No chart data available.";
-"chart_view.date_format" = "yy-MM-dd";
+"chart_view.date_format" = "MMM dd";
 
 // MARK: - ReferenceType
 
 "reference_type.week" = "Week";
 "reference_type.month" = "Month";
 "reference_type.year" = "Year";
-"reference_type.all" = "All";
+
 
 // MARK: - BaseNotificationBanner
 

@@ -1,9 +1,9 @@
 //
 //  NSObject+ClassName.swift
-//  BitPrice
+//  BitcoinPrice
 //
-//  Created by Bruno Tortato Furtado on 27/01/18.
-//  Copyright © 2018 Qoode. All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2019 Faizal All rights reserved.
 //
 
 import Foundation

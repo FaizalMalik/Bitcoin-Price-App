@@ -1,9 +1,9 @@
 //
 //  ViewController+HeaderDelegate.swift
-//  BitPrice
+//  BitcoinPrice
 //
-//  Created by Bruno Tortato Furtado on 27/01/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ import UIKit
 extension ViewController: HeaderViewDelegate {
 
     func headerViewRefreshDidSelect() {
-        let ref = UserDefaults.standard.reference()
+         let ref = UserDefaults.standard.reference()
         callCurrentPriceService()
         callHistoricPriceService(reference: ref)
     }

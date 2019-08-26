@@ -1,9 +1,9 @@
 //
-//  Ticker.swift
-//  BitPrice
+//  currentPrice.swift
+//  BitcoinPrice
 //
-//  Created by Bruno Tortato Furtado on 27/01/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
 
 import Foundation
@@ -39,12 +39,12 @@ extension CurrentPrice : Parceable{
                 
             }
             else{
-                return Result.failure(ErrorResult.parser(string: "Unable to parse conversion rate"))
+                return Result.failure(ErrorResult.parser(string: "Unable to parse CurrentPrice model"))
             
             }
 
         } else {
-            return Result.failure(ErrorResult.parser(string: "Unable to parse conversion rate"))
+            return Result.failure(ErrorResult.parser(string: "Unable to parse CurrentPrice model"))
         }
 
     }

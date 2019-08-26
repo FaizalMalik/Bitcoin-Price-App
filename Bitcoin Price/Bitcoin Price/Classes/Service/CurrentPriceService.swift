@@ -1,9 +1,9 @@
 //
 //  CurrentPriceService.swift
-//  BitPrice
+//  BitcoinPrice
 //
-//  Created by Bruno Tortato Furtado on 02/02/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
 
 import Foundation
@@ -30,12 +30,12 @@ class CurrentPriceService: ParseService<CurrentPrice> {
 
     private func success(data: Data) {
         DispatchQueue.main.async {
-            if let ticker = self.jsonParse(data: data) {
+            if let currentPrice = self.jsonParse(data: data) {
                 let date = Date()
-                self.delegate?.tickerGetDidComplete(ticker: ticker, date: date, fromCache: false)
-                //self.dbInsert(data: data, date: date)
+                self.delegate?.currentPriceGetDidComplete(currentPrice: currentPrice, date: date, fromCache: false)
+               
             } else {
-                self.delegate?.tickerGetDidComplete(failure: .server)
+                self.delegate?.currentPriceGetDidComplete(failure: .server)
             }
         }
     }
@@ -44,13 +44,13 @@ class CurrentPriceService: ParseService<CurrentPrice> {
         DispatchQueue.main.async {
             //TODO: Implement the code for offline support
 
-            self.delegate?.tickerGetDidComplete(failure: failure)
+            self.delegate?.currentPriceGetDidComplete(failure: failure)
         }
     }
 
 }
 
 protocol CurrentPriceServiceDelegate: class {
-    func tickerGetDidComplete(ticker: CurrentPrice, date: Date, fromCache: Bool)
-    func tickerGetDidComplete(failure: ServiceFailureType)
+    func currentPriceGetDidComplete(currentPrice: CurrentPrice, date: Date, fromCache: Bool)
+    func currentPriceGetDidComplete(failure: ServiceFailureType)
 }
