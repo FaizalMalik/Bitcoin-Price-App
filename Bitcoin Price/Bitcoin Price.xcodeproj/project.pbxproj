@@ -215,13 +215,6 @@
 			path = "Bitcoin PriceUITests";
 			sourceTree = "<group>";
 		};
-		18CEA26E2311429700C3AB9D /* Newservice */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Newservice;
-			sourceTree = "<group>";
-		};
 		5E414E20828CE915BF9738F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,7 +272,6 @@
 		F864D643201A947000EF7028 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				18CEA26E2311429700C3AB9D /* Newservice */,
 				F864D644201A947000EF7028 /* AppDelegate.swift */,
 				F864D645201A947000EF7028 /* Controller */,
 				F864D647201A947000EF7028 /* Helper */,

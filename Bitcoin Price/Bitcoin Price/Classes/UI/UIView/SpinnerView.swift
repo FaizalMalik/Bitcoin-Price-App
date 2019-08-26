@@ -10,10 +10,11 @@ import UIKit
 
 class SpinnerView: UIView {
 
-    private let indicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+    private let indicatorView = UIActivityIndicatorView(activityIndicatorStyle: .white)
 
     func show(onView: UIView) {
-        backgroundColor = UIColor.App.darkGray
+        
+        backgroundColor = onView.backgroundColor
 
         frame = onView.frame
         frame.origin.x = 0
