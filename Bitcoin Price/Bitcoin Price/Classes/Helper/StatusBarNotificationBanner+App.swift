@@ -1,9 +1,9 @@
 //
 //  StatusBarNotificationBanner+App.swift
-//  BitPrice
+//  BitcoinPrice
 //
-//  Created by Bruno Tortato Furtado on 02/02/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 02/02/18.
+//  Copyright © 2018 Faizal . All rights reserved.
 //
 
 import NotificationBannerSwift

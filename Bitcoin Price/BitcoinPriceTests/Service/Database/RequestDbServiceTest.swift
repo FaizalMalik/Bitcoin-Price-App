@@ -1,13 +1,13 @@
 //
 //  RequestDbServiceTest.swift
-//  BitPriceTests
+//  BitcoinPriceTests
 //
-//  Created by Bruno Tortato Furtado on 27/01/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2018 Faizal . All rights reserved.
 //
 
 import XCTest
-@testable import BitPrice
+@testable import BitcoinPrice
 
 class RequestDbServiceTest: XCTestCase {
 

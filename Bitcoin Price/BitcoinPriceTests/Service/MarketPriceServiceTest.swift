@@ -1,13 +1,13 @@
 //
 //  HistoricPriceServiceTest.swift
-//  BitPriceTests
+//  BitcoinPriceTests
 //
-//  Created by Bruno Tortato Furtado on 03/02/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 03/02/18.
+//  Copyright © 2018 Faizal . All rights reserved.
 //
 
 import XCTest
-@testable import BitPrice
+@testable import BitcoinPrice
 
 class HistoricPriceServiceTest: ApiServiceTest {
 
@@ -49,11 +49,11 @@ class HistoricPriceServiceTest: ApiServiceTest {
 
 extension HistoricPriceServiceTest: HistoricPriceServiceDelegate {
 
-    func marketPriceGetDidComplete(marketPrice: MarketPrice) {
+    func historicPriceGetDidComplete(historicPrice: historicPrice) {
         self.success()
     }
 
-    func marketPriceGetDidComplete(failure: ServiceFailureType) {
+    func historicPriceGetDidComplete(failure: ServiceFailureType) {
         self.failure(failure)
     }
 

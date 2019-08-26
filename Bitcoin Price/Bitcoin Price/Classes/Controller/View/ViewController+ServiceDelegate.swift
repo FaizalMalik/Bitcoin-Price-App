@@ -1,9 +1,9 @@
 //
 //  ViewController+ServiceDelegate.swift
-//  BitPrice
+//  BitcoinPrice
 //
-//  Created by Bruno Tortato Furtado on 02/02/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 02/02/18.
+//  Copyright © 2018 Faizal . All rights reserved.
 //
 
 import Charts
@@ -12,7 +12,7 @@ import UIKit
 
 extension ViewController: CurrentPriceServiceDelegate {
 
-    func tickerGetDidComplete(ticker: CurrentPrice, date: Date, fromCache: Bool) {
+    func currentPriceGetDidComplete(currentPrice: CurrentPrice, date: Date, fromCache: Bool) {
         bodyView.priceView.setPrice(132, date: date)
         bodyView.priceView.spinnerView.hide()
 
@@ -21,7 +21,7 @@ extension ViewController: CurrentPriceServiceDelegate {
         }
     }
 
-    func tickerGetDidComplete(failure: ServiceFailureType) {
+    func currentPriceGetDidComplete(failure: ServiceFailureType) {
         bodyView.priceView.setPrice(0)
         bodyView.priceView.spinnerView.hide()
 
@@ -31,34 +31,6 @@ extension ViewController: CurrentPriceServiceDelegate {
         case .connection:
             StatusBarNotificationBanner.noConnection.show()
         }
-    }
-
-}
-
-extension ViewController: HistoricPriceServiceDelegate {
-
-    func marketPriceGetDidComplete(marketPrice: HistoricPrice) {
-        let ref = UserDefaults.standard.reference()
-
-        let firsPrice = marketPrice.values.first?.rate ?? 0
-        let lastPrice = marketPrice.values.last?.rate ?? 0
-//        var values = [ChartDataEntry]()
-//
-//        for value in marketPrice.values {
-//            let x = Double(value.date) ?? 0
-//            let y = Double(value.rate) ?? 0
-//            values.append(ChartDataEntry(x: x, y: y))
-//        }
-
-        bodyView.historyView.setLoaded(true)
-        bodyView.historyView.setPrices(firstPrice: firsPrice, lastPrice: lastPrice)
-        bodyView.historyView.setChartData(reference: ref, values: marketPrice.values)
-        bodyView.historyView.spinnerView.hide()
-    }
-
-    func marketPriceGetDidComplete(failure: ServiceFailureType) {
-        bodyView.historyView.setLoaded(true)
-        bodyView.historyView.spinnerView.hide()
     }
 
 }

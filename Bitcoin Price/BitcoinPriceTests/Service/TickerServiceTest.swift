@@ -1,13 +1,13 @@
 //
 //  CurrentPriceServiceTest.swift
-//  BitPriceTests
+//  BitcoinPriceTests
 //
-//  Created by Bruno Tortato Furtado on 03/02/18.
-//  Copyright © 2018 Bruno Tortato Furtado. All rights reserved.
+//  Created by Faizal on 03/02/18.
+//  Copyright © 2018 Faizal . All rights reserved.
 //
 
 import XCTest
-@testable import BitPrice
+@testable import BitcoinPrice
 
 class CurrentPriceServiceTest: ApiServiceTest {
 
@@ -30,15 +30,15 @@ class CurrentPriceServiceTest: ApiServiceTest {
 }
 
 extension CurrentPriceServiceTest: CurrentPriceServiceDelegate {
-//    func tickerGetDidComplete(ticker: CurrentPrice, date: Date, fromCache: Bool) {
+//    func currentPriceGetDidComplete(currentPrice: CurrentPrice, date: Date, fromCache: Bool) {
 //        
 //    }
 
-    func tickerGetDidComplete(ticker: Ticker, date: Date, fromCache: Bool) {
+    func currentPriceGetDidComplete(currentPrice: currentPrice, date: Date, fromCache: Bool) {
         self.success()
     }
 
-    func tickerGetDidComplete(failure: ServiceFailureType) {
+    func currentPriceGetDidComplete(failure: ServiceFailureType) {
         self.failure(failure)
     }
 

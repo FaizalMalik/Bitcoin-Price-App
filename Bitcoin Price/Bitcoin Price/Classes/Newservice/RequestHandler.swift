@@ -1,9 +1,9 @@
 //
 //  RequestHandler.swift
-//  TemplateProject
+//  BitcoinPrice
 //
-//  Created by Benoit PASQUIER on 13/01/2018.
-//  Copyright © 2018 Benoit PASQUIER. All rights reserved.
+//  Created by Faizal on 24/08/19.
+//  Copyright © 2018 Faizal . All rights reserved.
 //
 
 import Foundation

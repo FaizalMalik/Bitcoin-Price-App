@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		185BAAC723130752005CD275 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BAAC623130752005CD275 /* BalloonMarker.swift */; };
 		18CEA26D23112D3300C3AB9D /* LineChartViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA26C23112D3300C3AB9D /* LineChartViewExtension.swift */; };
-		18CEA28E2312261500C3AB9D /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA28C2312261500C3AB9D /* CurrencyService.swift */; };
-		18CEA28F2312261500C3AB9D /* FileDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA28D2312261500C3AB9D /* FileDataService.swift */; };
 		18CEA2932312265600C3AB9D /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2902312265600C3AB9D /* RequestHandler.swift */; };
 		18CEA2942312265600C3AB9D /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2912312265600C3AB9D /* RequestService.swift */; };
 		18CEA2952312265600C3AB9D /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2922312265600C3AB9D /* RequestFactory.swift */; };
@@ -33,11 +31,9 @@
 		F8566F27201C0E54005E9950 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8566F26201C0E54005E9950 /* UIView+Shadow.swift */; };
 		F8566F2B201C1699005E9950 /* UserDefaults+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8566F2A201C1699005E9950 /* UserDefaults+App.swift */; };
 		F856EB85201D4AD700D4E655 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856EB84201D4AD700D4E655 /* SpinnerView.swift */; };
-		F8635771201AAC8800FB886B /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = F863576E201AAC8800FB886B /* RemoteConfigDefaults.plist */; };
 		F864D654201A947000EF7028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F864D644201A947000EF7028 /* AppDelegate.swift */; };
 		F864D656201A947000EF7028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F864D64C201A947000EF7028 /* LaunchScreen.storyboard */; };
 		F864D657201A947000EF7028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F864D64E201A947000EF7028 /* Main.storyboard */; };
-		F864D65D201A947600EF7028 /* BitPrice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F864D65B201A947600EF7028 /* BitPrice.xcdatamodeld */; };
 		F864D667201A95B300EF7028 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F864D669201A95B300EF7028 /* Localizable.strings */; };
 		F864D66C201A967600EF7028 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F864D66B201A967600EF7028 /* Settings.bundle */; };
 		F877E0B42024AD05002E955B /* CurrentPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F877E0B32024AD05002E955B /* CurrentPriceService.swift */; };
@@ -50,7 +46,6 @@
 		F88F2D3F2025DCA90010A5BD /* RequestDbServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F2D3B2025DCA90010A5BD /* RequestDbServiceTest.swift */; };
 		F88F2D412025DED50010A5BD /* MarketPriceServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F2D402025DED50010A5BD /* MarketPriceServiceTest.swift */; };
 		F88F2D432025E0250010A5BD /* TickerServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F2D422025E0250010A5BD /* TickerServiceTest.swift */; };
-		F8A704B2201C97E60015C071 /* BodyHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A704AA201C97E60015C071 /* BodyHistoryView.swift */; };
 		F8A704B3201C97E60015C071 /* BodyPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A704AB201C97E60015C071 /* BodyPriceView.swift */; };
 		F8A704B4201C97E60015C071 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A704AC201C97E60015C071 /* BodyView.swift */; };
 		F8A704B5201C97E60015C071 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A704AD201C97E60015C071 /* FooterView.swift */; };
@@ -73,7 +68,6 @@
 		F8D62DAD201D85C8005E76FD /* Date+Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D62DAC201D85C8005E76FD /* Date+Calc.swift */; };
 		F8D9D9B7201A925A002F2DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D9D9B6201A925A002F2DCC /* Assets.xcassets */; };
 		F8D9D9D0201A925A002F2DCC /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9D9CF201A925A002F2DCC /* ViewControllerUITests.swift */; };
-		F8DA792C2024963700AB528D /* HistoricPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA792B2024963700AB528D /* HistoricPriceService.swift */; };
 		F8DA792E20249B8200AB528D /* ViewController+ServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA792D20249B8200AB528D /* ViewController+ServiceDelegate.swift */; };
 		F8EB80B2201CE91000AD9087 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB80B1201CE91000AD9087 /* NSObject+ClassName.swift */; };
 /* End PBXBuildFile section */
@@ -105,8 +99,6 @@
 /* Begin PBXFileReference section */
 		185BAAC623130752005CD275 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
 		18CEA26C23112D3300C3AB9D /* LineChartViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartViewExtension.swift; sourceTree = "<group>"; };
-		18CEA28C2312261500C3AB9D /* CurrencyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
-		18CEA28D2312261500C3AB9D /* FileDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDataService.swift; sourceTree = "<group>"; };
 		18CEA2902312265600C3AB9D /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		18CEA2912312265600C3AB9D /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
 		18CEA2922312265600C3AB9D /* RequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
@@ -134,7 +126,6 @@
 		F8566EFA201B2F3A005E9950 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F8566F08201B85F4005E9950 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		F8566F0A201B8631005E9950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F8566F0B201B863D005E9950 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F8566F10201BBD0E005E9950 /* ReferenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceType.swift; sourceTree = "<group>"; };
 		F8566F12201BC0CB005E9950 /* Date+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatter.swift"; sourceTree = "<group>"; };
 		F8566F16201BC3F6005E9950 /* Float+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Formatter.swift"; sourceTree = "<group>"; };
@@ -143,13 +134,9 @@
 		F8566F26201C0E54005E9950 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
 		F8566F2A201C1699005E9950 /* UserDefaults+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+App.swift"; sourceTree = "<group>"; };
 		F856EB84201D4AD700D4E655 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
-		F863576C201AAC8800FB886B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F863576D201AAC8800FB886B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F863576E201AAC8800FB886B /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		F864D644201A947000EF7028 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F864D64D201A947000EF7028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F864D64F201A947000EF7028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F864D65C201A947600EF7028 /* BitPrice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitPrice.xcdatamodel; sourceTree = "<group>"; };
 		F864D65F201A947B00EF7028 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F864D66B201A967600EF7028 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		F877E0B32024AD05002E955B /* CurrentPriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPriceService.swift; sourceTree = "<group>"; };
@@ -162,7 +149,6 @@
 		F88F2D3B2025DCA90010A5BD /* RequestDbServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDbServiceTest.swift; sourceTree = "<group>"; };
 		F88F2D402025DED50010A5BD /* MarketPriceServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceServiceTest.swift; sourceTree = "<group>"; };
 		F88F2D422025E0250010A5BD /* TickerServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerServiceTest.swift; sourceTree = "<group>"; };
-		F8A704AA201C97E60015C071 /* BodyHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyHistoryView.swift; sourceTree = "<group>"; };
 		F8A704AB201C97E60015C071 /* BodyPriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyPriceView.swift; sourceTree = "<group>"; };
 		F8A704AC201C97E60015C071 /* BodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
 		F8A704AD201C97E60015C071 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
@@ -190,7 +176,6 @@
 		F8D9D9CB201A925A002F2DCC /* Bitcoin PriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitcoin PriceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D9D9CF201A925A002F2DCC /* ViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
 		F8D9D9D1201A925A002F2DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8DA792B2024963700AB528D /* HistoricPriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricPriceService.swift; sourceTree = "<group>"; };
 		F8DA792D20249B8200AB528D /* ViewController+ServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ServiceDelegate.swift"; sourceTree = "<group>"; };
 		F8EB80B1201CE91000AD9087 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		FB6A68A55C890D1D0E45733C /* Pods-Bitcoin PriceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin PriceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcoin PriceUITests/Pods-Bitcoin PriceUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -240,8 +225,6 @@
 				18CEA2922312265600C3AB9D /* RequestFactory.swift */,
 				18CEA2902312265600C3AB9D /* RequestHandler.swift */,
 				18CEA2912312265600C3AB9D /* RequestService.swift */,
-				18CEA28C2312261500C3AB9D /* CurrencyService.swift */,
-				18CEA28D2312261500C3AB9D /* FileDataService.swift */,
 			);
 			path = Newservice;
 			sourceTree = "<group>";
@@ -300,31 +283,12 @@
 			path = UIButton;
 			sourceTree = "<group>";
 		};
-		F863576A201AAC8800FB886B /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				F863576B201AAC8800FB886B /* Debug */,
-				F863576D201AAC8800FB886B /* GoogleService-Info.plist */,
-				F863576E201AAC8800FB886B /* RemoteConfigDefaults.plist */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		F863576B201AAC8800FB886B /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-				F863576C201AAC8800FB886B /* GoogleService-Info.plist */,
-			);
-			path = Debug;
-			sourceTree = "<group>";
-		};
 		F864D643201A947000EF7028 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				18CEA26E2311429700C3AB9D /* Newservice */,
 				F864D644201A947000EF7028 /* AppDelegate.swift */,
 				18CEA26C23112D3300C3AB9D /* LineChartViewExtension.swift */,
-				185BAAC623130752005CD275 /* BalloonMarker.swift */,
 				F864D645201A947000EF7028 /* Controller */,
 				F864D647201A947000EF7028 /* Helper */,
 				F864D648201A947000EF7028 /* Model */,
@@ -360,6 +324,7 @@
 				F87C6AF3201AC55A00BB968F /* UIFont+App.swift */,
 				F8A8601D2024EB8800553A43 /* UIView+Animations.swift */,
 				F8566F26201C0E54005E9950 /* UIView+Shadow.swift */,
+				185BAAC623130752005CD275 /* BalloonMarker.swift */,
 				F8566F2A201C1699005E9950 /* UserDefaults+App.swift */,
 			);
 			path = Helper;
@@ -379,7 +344,6 @@
 			isa = PBXGroup;
 			children = (
 				F877E0B52024AD1B002E955B /* Service.swift */,
-				F8DA792B2024963700AB528D /* HistoricPriceService.swift */,
 				F877E0B32024AD05002E955B /* CurrentPriceService.swift */,
 				F8A704BA201C9FCD0015C071 /* API */,
 			);
@@ -409,8 +373,6 @@
 		F864D65A201A947600EF7028 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F864D65B201A947600EF7028 /* BitPrice.xcdatamodeld */,
-				F863576A201AAC8800FB886B /* Firebase */,
 				F87C6AF1201AC4F100BB968F /* Fonts.bundle */,
 				F864D66B201A967600EF7028 /* Settings.bundle */,
 			);
@@ -474,7 +436,6 @@
 			isa = PBXGroup;
 			children = (
 				F8A704AB201C97E60015C071 /* BodyPriceView.swift */,
-				F8A704AA201C97E60015C071 /* BodyHistoryView.swift */,
 			);
 			path = Body;
 			sourceTree = "<group>";
@@ -579,7 +540,6 @@
 				C44D16B51BAA6DFEC0E436C5 /* [CP] Check Pods Manifest.lock */,
 				F8D9D9A5201A925A002F2DCC /* Sources */,
 				F8D9D9A6201A925A002F2DCC /* Frameworks */,
-				F8635765201AA50B00FB886B /* Setup Firebase Environment GoogleService-Info.plist */,
 				F8D9D9A7201A925A002F2DCC /* Resources */,
 				788B8434B80F97993872248B /* [CP] Embed Pods Frameworks */,
 			);
@@ -701,7 +661,6 @@
 				F864D66C201A967600EF7028 /* Settings.bundle in Resources */,
 				F8D9D9B7201A925A002F2DCC /* Assets.xcassets in Resources */,
 				F864D656201A947000EF7028 /* LaunchScreen.storyboard in Resources */,
-				F8635771201AAC8800FB886B /* RemoteConfigDefaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,20 +763,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F8635765201AA50B00FB886B /* Setup Firebase Environment GoogleService-Info.plist */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Setup Firebase Environment GoogleService-Info.plist";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\n# Get references to debug and release versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_DEBUG=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/Debug/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO=${PROJECT_DIR}/${TARGET_NAME}/Resources/Firebase/${GOOGLESERVICE_INFO_PLIST}\n\n# Make sure the debug version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEBUG}\"\nif [ ! -f $GOOGLESERVICE_INFO_DEBUG ]\nthen\necho \"No Debug GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n\n# Make sure the release version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO}\"\nif [ ! -f $GOOGLESERVICE_INFO ]\nthen\necho \"No Release GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\necho \"Using ${GOOGLESERVICE_INFO}\"\ncp \"${GOOGLESERVICE_INFO}\" \"${PLIST_DESTINATION}\"\nelse\necho \"Using ${GOOGLESERVICE_INFO_DEBUG}\"\ncp \"${GOOGLESERVICE_INFO_DEBUG}\" \"${PLIST_DESTINATION}\"\nfi\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -834,8 +779,6 @@
 			files = (
 				18CEA29A2312266600C3AB9D /* Result.swift in Sources */,
 				F8566EFB201B2F3A005E9950 /* CardView.swift in Sources */,
-				18CEA28F2312261500C3AB9D /* FileDataService.swift in Sources */,
-				F8DA792C2024963700AB528D /* HistoricPriceService.swift in Sources */,
 				F8A704CA201CB48A0015C071 /* HistoricPrice.swift in Sources */,
 				F8566F11201BBD0E005E9950 /* ReferenceType.swift in Sources */,
 				18CEA26D23112D3300C3AB9D /* LineChartViewExtension.swift in Sources */,
@@ -863,13 +806,11 @@
 				F8566F25201C0E2E005E9950 /* Button.swift in Sources */,
 				F8566F20201BF115005E9950 /* ChartView.swift in Sources */,
 				F8DA792E20249B8200AB528D /* ViewController+ServiceDelegate.swift in Sources */,
-				F8A704B2201C97E60015C071 /* BodyHistoryView.swift in Sources */,
 				F864D654201A947000EF7028 /* AppDelegate.swift in Sources */,
 				F8282342201D3B1C0008D8AF /* Date+Diff.swift in Sources */,
 				F8566F2B201C1699005E9950 /* UserDefaults+App.swift in Sources */,
 				F8A704B8201C97E60015C071 /* ViewController+HeaderDelegate.swift in Sources */,
 				F8A704CC201CC3410015C071 /* Date+Components.swift in Sources */,
-				F864D65D201A947600EF7028 /* BitPrice.xcdatamodeld in Sources */,
 				F8A704BE201CA8870015C071 /* CurrentPriceApiService.swift in Sources */,
 				F8EB80B2201CE91000AD9087 /* NSObject+ClassName.swift in Sources */,
 				F8A704B4201C97E60015C071 /* BodyView.swift in Sources */,
@@ -880,7 +821,6 @@
 				F87C6AF4201AC55A00BB968F /* UIFont+App.swift in Sources */,
 				F8566F09201B85F4005E9950 /* String+Localized.swift in Sources */,
 				18CEA2942312265600C3AB9D /* RequestService.swift in Sources */,
-				18CEA28E2312261500C3AB9D /* CurrencyService.swift in Sources */,
 				F8566F13201BC0CB005E9950 /* Date+Formatter.swift in Sources */,
 				F8A704C4201CB1700015C071 /* Bundle+InfoPlist.swift in Sources */,
 				18CEA2972312265F00C3AB9D /* ParserHelper.swift in Sources */,
@@ -949,7 +889,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8566F0A201B8631005E9950 /* en */,
-				F8566F0B201B863D005E9950 /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1260,19 +1199,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F864D65B201A947600EF7028 /* BitPrice.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F864D65C201A947600EF7028 /* BitPrice.xcdatamodel */,
-			);
-			currentVersion = F864D65C201A947600EF7028 /* BitPrice.xcdatamodel */;
-			path = BitPrice.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F8D9D9A1201A925A002F2DCC /* Project object */;
 }
