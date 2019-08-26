@@ -12,7 +12,6 @@
 		189C39472313B867009CC6EC /* HistoricPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39462313B867009CC6EC /* HistoricPriceService.swift */; };
 		189C394A2313B895009CC6EC /* HistoricPriceApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39482313B895009CC6EC /* HistoricPriceApiRouter.swift */; };
 		189C394B2313B895009CC6EC /* HistoricPriceApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39492313B895009CC6EC /* HistoricPriceApiService.swift */; };
-		18CEA26D23112D3300C3AB9D /* LineChartViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA26C23112D3300C3AB9D /* LineChartViewExtension.swift */; };
 		18CEA2932312265600C3AB9D /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2902312265600C3AB9D /* RequestHandler.swift */; };
 		18CEA2942312265600C3AB9D /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2912312265600C3AB9D /* RequestService.swift */; };
 		18CEA2952312265600C3AB9D /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2922312265600C3AB9D /* RequestFactory.swift */; };
@@ -57,7 +56,6 @@
 		F8A704C2201CA9D00015C071 /* CurrentPriceApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A704C1201CA9D00015C071 /* CurrentPriceApiRouter.swift */; };
 		F8A704C4201CB1700015C071 /* Bundle+InfoPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A704C3201CB1700015C071 /* Bundle+InfoPlist.swift */; };
 		F8A704CA201CB48A0015C071 /* HistoricPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A704C9201CB48A0015C071 /* HistoricPrice.swift */; };
-		F8A704CC201CC3410015C071 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A704CB201CC3410015C071 /* Date+Components.swift */; };
 		F8A8601E2024EB8800553A43 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8601D2024EB8800553A43 /* UIView+Animations.swift */; };
 		F8AF645E202511530043465D /* BannerColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AF645D202511530043465D /* BannerColors.swift */; };
 		F8AF64602025122F0043465D /* StatusBarNotificationBanner+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AF645F2025122F0043465D /* StatusBarNotificationBanner+App.swift */; };
@@ -97,7 +95,6 @@
 		189C39462313B867009CC6EC /* HistoricPriceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceService.swift; sourceTree = "<group>"; };
 		189C39482313B895009CC6EC /* HistoricPriceApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceApiRouter.swift; sourceTree = "<group>"; };
 		189C39492313B895009CC6EC /* HistoricPriceApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceApiService.swift; sourceTree = "<group>"; };
-		18CEA26C23112D3300C3AB9D /* LineChartViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartViewExtension.swift; sourceTree = "<group>"; };
 		18CEA2902312265600C3AB9D /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		18CEA2912312265600C3AB9D /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
 		18CEA2922312265600C3AB9D /* RequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
@@ -155,7 +152,6 @@
 		F8A704C1201CA9D00015C071 /* CurrentPriceApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPriceApiRouter.swift; sourceTree = "<group>"; };
 		F8A704C3201CB1700015C071 /* Bundle+InfoPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+InfoPlist.swift"; sourceTree = "<group>"; };
 		F8A704C9201CB48A0015C071 /* HistoricPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricPrice.swift; sourceTree = "<group>"; };
-		F8A704CB201CC3410015C071 /* Date+Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Components.swift"; sourceTree = "<group>"; };
 		F8A8601D2024EB8800553A43 /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 		F8AF645D202511530043465D /* BannerColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerColors.swift; sourceTree = "<group>"; };
 		F8AF645F2025122F0043465D /* StatusBarNotificationBanner+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatusBarNotificationBanner+App.swift"; sourceTree = "<group>"; };
@@ -278,7 +274,6 @@
 			children = (
 				18CEA26E2311429700C3AB9D /* Newservice */,
 				F864D644201A947000EF7028 /* AppDelegate.swift */,
-				18CEA26C23112D3300C3AB9D /* LineChartViewExtension.swift */,
 				F864D645201A947000EF7028 /* Controller */,
 				F864D647201A947000EF7028 /* Helper */,
 				F864D648201A947000EF7028 /* Model */,
@@ -303,7 +298,6 @@
 				18CEA29C231226B700C3AB9D /* Reachability.swift */,
 				F8A704C3201CB1700015C071 /* Bundle+InfoPlist.swift */,
 				F8D62DAC201D85C8005E76FD /* Date+Calc.swift */,
-				F8A704CB201CC3410015C071 /* Date+Components.swift */,
 				F8282341201D3B1C0008D8AF /* Date+Diff.swift */,
 				F8566F12201BC0CB005E9950 /* Date+Formatter.swift */,
 				F8566F16201BC3F6005E9950 /* Float+Formatter.swift */,
@@ -751,7 +745,6 @@
 				189C394B2313B895009CC6EC /* HistoricPriceApiService.swift in Sources */,
 				F8A704CA201CB48A0015C071 /* HistoricPrice.swift in Sources */,
 				F8566F11201BBD0E005E9950 /* ReferenceType.swift in Sources */,
-				18CEA26D23112D3300C3AB9D /* LineChartViewExtension.swift in Sources */,
 				F856EB85201D4AD700D4E655 /* SpinnerView.swift in Sources */,
 				F8A704B3201C97E60015C071 /* BodyPriceView.swift in Sources */,
 				F8A8601E2024EB8800553A43 /* UIView+Animations.swift in Sources */,
@@ -778,7 +771,6 @@
 				F8282342201D3B1C0008D8AF /* Date+Diff.swift in Sources */,
 				F8566F2B201C1699005E9950 /* UserDefaults+App.swift in Sources */,
 				F8A704B8201C97E60015C071 /* ViewController+HeaderDelegate.swift in Sources */,
-				F8A704CC201CC3410015C071 /* Date+Components.swift in Sources */,
 				F8A704BE201CA8870015C071 /* CurrentPriceApiService.swift in Sources */,
 				F8EB80B2201CE91000AD9087 /* NSObject+ClassName.swift in Sources */,
 				F8A704B4201C97E60015C071 /* BodyView.swift in Sources */,

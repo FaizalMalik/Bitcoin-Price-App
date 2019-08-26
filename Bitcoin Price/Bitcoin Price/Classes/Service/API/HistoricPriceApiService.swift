@@ -54,12 +54,7 @@ class HistoricPriceApiService: ApiService {
             
         case .year:
             endDate = Date().minus(days: 360)
-           
-//        case .all:
-//            start = Date().startOfBitcoin
-//            timespan = "\(Date().years(from: start))years"
-         default:
-            endDate = Date().minus(days: 7)
+
         }
 //https://api.coindesk.com/v1/bpi/historical/close.json?start=2019-01-01&end=2019-01-31
         var params: [String: String] = [:]

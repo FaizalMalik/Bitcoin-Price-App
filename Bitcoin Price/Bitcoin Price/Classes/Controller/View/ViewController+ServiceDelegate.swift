@@ -13,7 +13,7 @@ import UIKit
 extension ViewController: CurrentPriceServiceDelegate {
 
     func currentPriceGetDidComplete(currentPrice: CurrentPrice, date: Date, fromCache: Bool) {
-        bodyView.priceView.setPrice(132, date: date)
+        bodyView.priceView.setPrice(currentPrice.bpi.rate_float, date: date)
         bodyView.priceView.spinnerView.hide()
 
         if fromCache {
@@ -43,12 +43,24 @@ extension ViewController: HistoricPriceServiceDelegate {
         
         let firsPrice = historicPrice.values.first?.rate ?? 0
         let lastPrice = historicPrice.values.last?.rate ?? 0
-    
+        
+        var values = [ChartDataEntry]()
+        var position = 0.0
+        for value in historicPrice.values {
+            let dataEntry = ChartDataEntry(x: Double(position), y: Double(value.rate))
+             values.append(dataEntry)
+               position += 1.0
+           // let date = Date.fromString(value.date, dateFormat: "yyyy-MM-dd")
+           
+            //values.append(ChartDataEntry(x: Double(x), y: Double(x)))
+        }
         
         bodyView.historyView.setLoaded(true)
         bodyView.historyView.setPrices(firstPrice: firsPrice, lastPrice: lastPrice)
-        bodyView.historyView.setChartData(reference: ref, values: historicPrice.values)
+        bodyView.historyView.setChartData(reference: ref, values: values)
         bodyView.historyView.spinnerView.hide()
+        
+        
     }
     
     func historicPriceGetDidComplete(failure: ServiceFailureType) {

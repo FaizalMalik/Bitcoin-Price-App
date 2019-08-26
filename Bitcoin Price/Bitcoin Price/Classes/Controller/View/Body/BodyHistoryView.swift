@@ -17,7 +17,7 @@ class BodyHistoryView: UIView {
 @IBOutlet private weak var referenceLabel: UILabel!
 @IBOutlet private weak var indicatorImageView: UIImageView!
 @IBOutlet private weak var percentLabel: UILabel!
-@IBOutlet private weak var chartView: LineChartView!
+@IBOutlet private weak var chartView: ChartView!
 
 // MARK: - Variables
 
@@ -62,10 +62,11 @@ func setPrices(firstPrice: Float, lastPrice: Float) {
     setPercent(firstPrice: firstPrice, lastPrice: lastPrice, color: color)
 }
 
-func setChartData(reference: ReferenceType, values: [ChartValues]) {
+func setChartData(reference: ReferenceType, values: [ChartDataEntry]) {
     self.referenceLabel.text = reference.rawValue.localized
-    // chartView.setData(values: values)
-    chartView.drawBitcoinChart(historicalData: values, interval: .Day)
+    
+     chartView.setData(values: values)
+//    chartView.drawBitcoinChart(historicalData: values, interval: .Day)
 }
 
 // MARK: - Private

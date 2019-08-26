@@ -18,7 +18,7 @@
 // MARK: - ChatView
 
 "chart_view.no_data" = "No chart data available.";
-"chart_view.date_format" = "yy-MM-dd";
+"chart_view.date_format" = "MMM dd";
 
 // MARK: - ReferenceType
 

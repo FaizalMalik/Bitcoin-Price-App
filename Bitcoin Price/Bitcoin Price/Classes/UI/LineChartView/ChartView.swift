@@ -40,15 +40,16 @@ class ChartView: LineChartView {
     // MARK: - Private
 
     private func line(values: [ChartDataEntry]) -> LineChartDataSet {
-        let color = UIColor.App.purple
+        let color = UIColor.green
         let line = LineChartDataSet(values: values, label: nil)
 
         line.setColor(color)
         line.setCircleColor(color)
-        line.lineWidth = 3
+        line.lineWidth = 1.0
         line.drawCirclesEnabled = false
         line.drawValuesEnabled = false
-
+        line.mode = .horizontalBezier
+        self.animate(xAxisDuration: 1.0)
         return line
     }
 
@@ -74,7 +75,7 @@ class ChartView: LineChartView {
 
         xAxis.valueFormatter = DefaultAxisValueFormatter.with(block: { value, _ -> String in
             let dateFormat = "chart_view.date_format".localized
-            return Date(timeIntervalSince1970: value).toString(dateFormat: dateFormat)
+            return Date().minus(days: Int(value)).toString(dateFormat: dateFormat)
         })
 
     }

@@ -282,7 +282,7 @@
                                             <constraint firstAttribute="trailing" secondItem="Jbv-ie-UC2" secondAttribute="trailing" id="vrc-Jw-GZL"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="chartView" destination="YVt-Kh-fwa" id="ErX-uc-1rb"/>
+                                            <outlet property="chartView" destination="YVt-Kh-fwa" id="nWT-lL-Cun"/>
                                             <outlet property="indicatorImageView" destination="TZf-pv-8Ui" id="nPk-u8-5HL"/>
                                             <outlet property="percentLabel" destination="m4E-JT-Zus" id="wqD-FS-ah8"/>
                                             <outlet property="referenceLabel" destination="ta4-eR-A3b" id="Muc-hf-P1I"/>
