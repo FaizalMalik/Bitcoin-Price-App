@@ -12,12 +12,7 @@
 		189C39472313B867009CC6EC /* HistoricPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39462313B867009CC6EC /* HistoricPriceService.swift */; };
 		189C394A2313B895009CC6EC /* HistoricPriceApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39482313B895009CC6EC /* HistoricPriceApiRouter.swift */; };
 		189C394B2313B895009CC6EC /* HistoricPriceApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39492313B895009CC6EC /* HistoricPriceApiService.swift */; };
-		18CEA2932312265600C3AB9D /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2902312265600C3AB9D /* RequestHandler.swift */; };
-		18CEA2942312265600C3AB9D /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2912312265600C3AB9D /* RequestService.swift */; };
-		18CEA2952312265600C3AB9D /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2922312265600C3AB9D /* RequestFactory.swift */; };
-		18CEA2972312265F00C3AB9D /* ParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2962312265F00C3AB9D /* ParserHelper.swift */; };
 		18CEA29A2312266600C3AB9D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2982312266600C3AB9D /* Result.swift */; };
-		18CEA29B2312266600C3AB9D /* ErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2992312266600C3AB9D /* ErrorResult.swift */; };
 		18CEA29D231226B700C3AB9D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA29C231226B700C3AB9D /* Reachability.swift */; };
 		50B08C9E312972136D062981 /* Pods_Bitcoin_PriceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0666383C2AAEF0D66B8C771 /* Pods_Bitcoin_PriceUITests.framework */; };
 		66DF351DF9F575A3630BACBC /* Pods_Bitcoin_Price.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B7386C8D56B5209CB13DA8 /* Pods_Bitcoin_Price.framework */; };
@@ -95,12 +90,7 @@
 		189C39462313B867009CC6EC /* HistoricPriceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceService.swift; sourceTree = "<group>"; };
 		189C39482313B895009CC6EC /* HistoricPriceApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceApiRouter.swift; sourceTree = "<group>"; };
 		189C39492313B895009CC6EC /* HistoricPriceApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceApiService.swift; sourceTree = "<group>"; };
-		18CEA2902312265600C3AB9D /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
-		18CEA2912312265600C3AB9D /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
-		18CEA2922312265600C3AB9D /* RequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
-		18CEA2962312265F00C3AB9D /* ParserHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserHelper.swift; sourceTree = "<group>"; };
 		18CEA2982312266600C3AB9D /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		18CEA2992312266600C3AB9D /* ErrorResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResult.swift; sourceTree = "<group>"; };
 		18CEA29C231226B700C3AB9D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		35173FF0A58A0E9CA0B0A38D /* Pods-BitPriceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPriceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitPriceTests/Pods-BitPriceTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D59A69A2A7322BD4500E335 /* Pods-BitPriceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPriceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitPriceUITests/Pods-BitPriceUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -205,12 +195,6 @@
 		18CEA26E2311429700C3AB9D /* Newservice */ = {
 			isa = PBXGroup;
 			children = (
-				18CEA2992312266600C3AB9D /* ErrorResult.swift */,
-				18CEA2982312266600C3AB9D /* Result.swift */,
-				18CEA2962312265F00C3AB9D /* ParserHelper.swift */,
-				18CEA2922312265600C3AB9D /* RequestFactory.swift */,
-				18CEA2902312265600C3AB9D /* RequestHandler.swift */,
-				18CEA2912312265600C3AB9D /* RequestService.swift */,
 			);
 			path = Newservice;
 			sourceTree = "<group>";
@@ -320,6 +304,7 @@
 				F8566F10201BBD0E005E9950 /* ReferenceType.swift */,
 				F8A704C9201CB48A0015C071 /* HistoricPrice.swift */,
 				F8A704BB201CA6880015C071 /* CurrentPrice.swift */,
+				18CEA2982312266600C3AB9D /* Result.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -752,15 +737,12 @@
 				18CEA29D231226B700C3AB9D /* Reachability.swift in Sources */,
 				F8AF64602025122F0043465D /* StatusBarNotificationBanner+App.swift in Sources */,
 				F8566F17201BC3F6005E9950 /* Float+Formatter.swift in Sources */,
-				18CEA2952312265600C3AB9D /* RequestFactory.swift in Sources */,
-				18CEA2932312265600C3AB9D /* RequestHandler.swift in Sources */,
 				F877E0B62024AD1B002E955B /* Service.swift in Sources */,
 				F8A704B9201C97E60015C071 /* ViewController.swift in Sources */,
 				F8A704BC201CA6880015C071 /* CurrentPrice.swift in Sources */,
 				F8D62DAD201D85C8005E76FD /* Date+Calc.swift in Sources */,
 				F877E0B42024AD05002E955B /* CurrentPriceService.swift in Sources */,
 				185BAAC723130752005CD275 /* BalloonMarker.swift in Sources */,
-				18CEA29B2312266600C3AB9D /* ErrorResult.swift in Sources */,
 				F8AF645E202511530043465D /* BannerColors.swift in Sources */,
 				F8A704C2201CA9D00015C071 /* CurrentPriceApiRouter.swift in Sources */,
 				F8A704B7201C97E60015C071 /* ViewController+FooterDelegate.swift in Sources */,
@@ -782,11 +764,9 @@
 				F87C6AF4201AC55A00BB968F /* UIFont+App.swift in Sources */,
 				F8566F09201B85F4005E9950 /* String+Localized.swift in Sources */,
 				189C39452313B351009CC6EC /* BodyHistoryView.swift in Sources */,
-				18CEA2942312265600C3AB9D /* RequestService.swift in Sources */,
 				189C39472313B867009CC6EC /* HistoricPriceService.swift in Sources */,
 				F8566F13201BC0CB005E9950 /* Date+Formatter.swift in Sources */,
 				F8A704C4201CB1700015C071 /* Bundle+InfoPlist.swift in Sources */,
-				18CEA2972312265F00C3AB9D /* ParserHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
