@@ -8,6 +8,7 @@
 
 // MARK: - BodyPriceView
 
+
 "body_price_view.title" = "Bitcoin Price";
 "body_price_view.date_format" = "MMM d, h:mm a";
 
