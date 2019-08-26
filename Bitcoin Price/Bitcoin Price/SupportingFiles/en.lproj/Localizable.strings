@@ -11,6 +11,14 @@
 "body_price_view.title" = "Bitcoin Price";
 "body_price_view.date_format" = "MMM d, h:mm a";
 
+// MARK: - BodyHistoryView
+
+"body_history_view.price" = "History Price";
+
+// MARK: - ChatView
+
+"chart_view.no_data" = "No chart data available.";
+"chart_view.date_format" = "yy-MM-dd";
 
 // MARK: - ReferenceType
 

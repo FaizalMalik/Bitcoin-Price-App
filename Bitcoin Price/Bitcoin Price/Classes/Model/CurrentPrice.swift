@@ -39,12 +39,12 @@ extension CurrentPrice : Parceable{
                 
             }
             else{
-                return Result.failure(ErrorResult.parser(string: "Unable to parse conversion rate"))
+                return Result.failure(ErrorResult.parser(string: "Unable to parse CurrentPrice model"))
             
             }
 
         } else {
-            return Result.failure(ErrorResult.parser(string: "Unable to parse conversion rate"))
+            return Result.failure(ErrorResult.parser(string: "Unable to parse CurrentPrice model"))
         }
 
     }

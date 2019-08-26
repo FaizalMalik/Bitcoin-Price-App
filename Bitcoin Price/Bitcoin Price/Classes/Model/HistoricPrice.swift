@@ -34,7 +34,7 @@ extension HistoricPrice : Parceable {
             return Result.success(historyPrices)
             
         } else {
-            return Result.failure(ErrorResult.parser(string: "Unable to parse conversion rate"))
+            return Result.failure(ErrorResult.parser(string: "Unable to HistoricPrice parse model"))
         }
 
     }
