@@ -1,10 +1,11 @@
 //
 //  LineChartViewExtension.swift
-//  bitcoin
+//  BitcoinPrice
 //
-//  Created by Filipe Santos Correa on 16.07.17.
-//  Copyright © 2017 Filipe Santos Correa. All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
+
 
 import UIKit
 import Charts
@@ -27,23 +28,12 @@ extension LineChartView {
        // let formatter = DateFormatter()
         var dataEntries: [ChartDataEntry] = []
         var dates = [String]()
-
-//        switch interval {
-//        case .Day:
-//            formatter.dateFormat = "HH:mm"
-//        case .Month:
-//            formatter.dateFormat = "MM/dd"
-//        default:
-//            formatter.dateFormat = "yyyy/MM"
-//        }
-//        let dateFormat = "body_price_view.date_format".localized
         var position = 0.0
 
        
         for i in 0..<historicalData.count {
             let dataEntry = ChartDataEntry(x: Double(position), y: Double(historicalData[i].rate))
             dataEntries.append(dataEntry)
-
             dates.append("0")
             position += 1.0
         }

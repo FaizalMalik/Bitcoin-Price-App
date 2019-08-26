@@ -2,8 +2,8 @@
 //  FooterView.swift
 //  BitcoinPrice
 //
-//  Created by Faizal on 26/01/18.
-//  Copyright © 2018 Faizal . All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
 
 import UIKit
@@ -29,6 +29,7 @@ class FooterView: UIView {
         monthButton.setTitle(ReferenceType.month.rawValue.localized, for: .normal)
         yearButton.setTitle(ReferenceType.year.rawValue.localized, for: .normal)
 
+        
     }
 
     // MARK: - Public

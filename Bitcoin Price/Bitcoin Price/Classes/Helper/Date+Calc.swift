@@ -2,8 +2,8 @@
 //  Date+Calc.swift
 //  BitcoinPrice
 //
-//  Created by Faizal on 28/01/18.
-//  Copyright © 2018 Faizal . All rights reserved.
+//  Created by Faizal on 28/08/19.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
 
 import Foundation

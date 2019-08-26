@@ -3,7 +3,7 @@
 //  BitcoinPrice
 //
 //  Created by Faizal on 26/08/19.
-//  Copyright © 2018 Faizal . All rights reserved.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class SpinnerView: UIView {
     private let indicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
 
     func show(onView: UIView) {
-        backgroundColor = onView.backgroundColor
+        backgroundColor = UIColor.App.darkGray
 
         frame = onView.frame
         frame.origin.x = 0

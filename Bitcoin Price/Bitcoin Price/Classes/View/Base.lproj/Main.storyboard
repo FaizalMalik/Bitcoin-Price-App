@@ -71,22 +71,22 @@
                                 <rect key="frame" x="15" y="78" width="345" height="579"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WUx-WC-jGd" userLabel="priceView" customClass="BodyPriceView" customModule="Bitcoin_Price" customModuleProvider="target">
-                                        <rect key="frame" x="15" y="15" width="315" height="130"/>
+                                        <rect key="frame" x="15" y="15" width="330" height="130"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="day, time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aM5-WQ-PG5" userLabel="updatedLabel">
-                                                <rect key="frame" x="10" y="11.5" width="295" height="18"/>
+                                                <rect key="frame" x="10" y="16.5" width="310" height="18"/>
                                                 <fontDescription key="fontDescription" name="DINPro-Light" family="DINPro" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$36.500,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvo-ij-IzH" userLabel="priceLabel">
-                                                <rect key="frame" x="10" y="34.5" width="295" height="51.5"/>
+                                                <rect key="frame" x="10" y="39.5" width="310" height="51.5"/>
                                                 <fontDescription key="fontDescription" name="DINPro-Medium" family="DINPro" pointSize="40"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6Di-Sh-fr9">
-                                                <rect key="frame" x="106" y="101" width="103" height="19.5"/>
+                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6Di-Sh-fr9">
+                                                <rect key="frame" x="119.5" y="106" width="91.5" height="19.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24HR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4z-gb-Zi3" userLabel="updatedLabel">
                                                         <rect key="frame" x="0.0" y="0.0" width="36.5" height="19.5"/>
@@ -94,8 +94,8 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+200.398" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3U5-iM-gxt" userLabel="updatedLabel">
-                                                        <rect key="frame" x="41.5" y="0.0" width="61.5" height="19.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+2.21%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3U5-iM-gxt" userLabel="updatedLabel">
+                                                        <rect key="frame" x="41.5" y="0.0" width="50" height="19.5"/>
                                                         <fontDescription key="fontDescription" name="DINPro-Bold" family="DINPro" pointSize="15"/>
                                                         <color key="textColor" red="0.16862745098039217" green="1" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -103,7 +103,7 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="6Di-Sh-fr9" firstAttribute="top" secondItem="uvo-ij-IzH" secondAttribute="bottom" constant="15" id="0Xk-bN-9Id"/>
                                             <constraint firstAttribute="height" constant="130" id="1st-FB-vsj"/>
@@ -114,7 +114,7 @@
                                             <constraint firstItem="uvo-ij-IzH" firstAttribute="centerX" secondItem="WUx-WC-jGd" secondAttribute="centerX" id="P29-Uk-4sl"/>
                                             <constraint firstItem="uvo-ij-IzH" firstAttribute="leading" secondItem="WUx-WC-jGd" secondAttribute="leading" constant="10" id="fWW-ET-Kit"/>
                                             <constraint firstAttribute="trailing" secondItem="aM5-WQ-PG5" secondAttribute="trailing" constant="10" id="mhA-zC-KF2"/>
-                                            <constraint firstItem="uvo-ij-IzH" firstAttribute="centerY" secondItem="WUx-WC-jGd" secondAttribute="centerY" constant="-5" id="tca-j4-IbV"/>
+                                            <constraint firstItem="uvo-ij-IzH" firstAttribute="centerY" secondItem="WUx-WC-jGd" secondAttribute="centerY" id="tca-j4-IbV"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -134,8 +134,84 @@
                                             <constraint firstAttribute="height" constant="1" id="spN-FV-kz2"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7J-MI-7OD" userLabel="footerView" customClass="FooterView" customModule="Bitcoin_Price" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="524" width="330" height="45"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="77c-ts-r1S">
+                                                <rect key="frame" x="0.0" y="0.0" width="330" height="45"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WqL-GF-VfH" userLabel="weekButton" customClass="Button" customModule="Bitcoin_Price" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="weekButton"/>
+                                                        <fontDescription key="fontDescription" name="DINPro-Medium" family="DINPro" pointSize="15"/>
+                                                        <state key="normal" title="Week">
+                                                            <color key="titleColor" red="0.29803921570000003" green="0.25882352939999997" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <state key="selected">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <state key="highlighted">
+                                                            <color key="titleColor" red="0.29803921570000003" green="0.25882352939999997" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="buttonSelect:" destination="e7J-MI-7OD" eventType="touchUpInside" id="aql-md-aCh"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNG-ll-rIb" userLabel="monthButton" customClass="Button" customModule="Bitcoin_Price" customModuleProvider="target">
+                                                        <rect key="frame" x="115" y="0.0" width="100" height="45"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="monthButton"/>
+                                                        <fontDescription key="fontDescription" name="DINPro-Medium" family="DINPro" pointSize="15"/>
+                                                        <state key="normal" title="Month">
+                                                            <color key="titleColor" red="0.29803921570000003" green="0.25882352939999997" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <state key="selected">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <state key="highlighted">
+                                                            <color key="titleColor" red="0.29803921570000003" green="0.25882352939999997" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="buttonSelect:" destination="e7J-MI-7OD" eventType="touchUpInside" id="Sas-SP-zaH"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IzM-8s-rvX" userLabel="yearButton" customClass="Button" customModule="Bitcoin_Price" customModuleProvider="target">
+                                                        <rect key="frame" x="230" y="0.0" width="100" height="45"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="yearButton"/>
+                                                        <fontDescription key="fontDescription" name="DINPro-Medium" family="DINPro" pointSize="15"/>
+                                                        <state key="normal" title="Year">
+                                                            <color key="titleColor" red="0.29803921570000003" green="0.25882352939999997" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <state key="selected">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <state key="highlighted">
+                                                            <color key="titleColor" red="0.29803921570000003" green="0.25882352939999997" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="buttonSelect:" destination="e7J-MI-7OD" eventType="touchUpInside" id="iXI-6y-WVm"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="77c-ts-r1S" firstAttribute="leading" secondItem="e7J-MI-7OD" secondAttribute="leading" id="Gtn-4b-oe5"/>
+                                            <constraint firstAttribute="trailing" secondItem="77c-ts-r1S" secondAttribute="trailing" id="aR9-iR-4SE"/>
+                                            <constraint firstAttribute="bottom" secondItem="77c-ts-r1S" secondAttribute="bottom" id="bN6-hk-0jL"/>
+                                            <constraint firstItem="77c-ts-r1S" firstAttribute="top" secondItem="e7J-MI-7OD" secondAttribute="top" id="cjg-lO-Gt3"/>
+                                            <constraint firstAttribute="height" constant="45" id="zUf-ox-CTk"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="monthButton" destination="qNG-ll-rIb" id="eU1-st-MJA"/>
+                                            <outlet property="weekButton" destination="WqL-GF-VfH" id="Fmk-vZ-ovJ"/>
+                                            <outlet property="yearButton" destination="IzM-8s-rvX" id="eOi-Aa-xCD"/>
+                                        </connections>
+                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N8m-Rw-gv5" userLabel="historyView" customClass="BodyHistoryView" customModule="Bitcoin_Price" customModuleProvider="target">
-                                        <rect key="frame" x="15" y="176" width="315" height="388"/>
+                                        <rect key="frame" x="15" y="171" width="315" height="343"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iG9-um-5fz" userLabel="Left View">
                                                 <rect key="frame" x="0.0" y="0.0" width="104.5" height="47"/>
@@ -164,7 +240,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVt-Kh-fwa" userLabel="chartView" customClass="ChartView" customModule="Bitcoin_Price" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="62" width="315" height="296"/>
+                                                <rect key="frame" x="0.0" y="62" width="315" height="251"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jbv-ie-UC2" userLabel="Right View">
@@ -194,8 +270,9 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="YVt-Kh-fwa" secondAttribute="bottom" constant="30" id="3Hg-4h-zNP"/>
                                             <constraint firstItem="iG9-um-5fz" firstAttribute="leading" secondItem="N8m-Rw-gv5" secondAttribute="leading" id="7xt-UM-cT8"/>
                                             <constraint firstItem="YVt-Kh-fwa" firstAttribute="leading" secondItem="N8m-Rw-gv5" secondAttribute="leading" id="AvA-hL-nf0"/>
                                             <constraint firstAttribute="trailing" secondItem="YVt-Kh-fwa" secondAttribute="trailing" id="WaQ-fm-vYs"/>
@@ -203,7 +280,6 @@
                                             <constraint firstItem="YVt-Kh-fwa" firstAttribute="top" secondItem="Jbv-ie-UC2" secondAttribute="bottom" constant="11" id="hVe-9t-PE0"/>
                                             <constraint firstItem="iG9-um-5fz" firstAttribute="top" secondItem="N8m-Rw-gv5" secondAttribute="top" id="tOb-hB-naK"/>
                                             <constraint firstAttribute="trailing" secondItem="Jbv-ie-UC2" secondAttribute="trailing" id="vrc-Jw-GZL"/>
-                                            <constraint firstAttribute="bottom" secondItem="YVt-Kh-fwa" secondAttribute="bottom" constant="30" id="w5h-wk-MdL"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="chartView" destination="YVt-Kh-fwa" id="ErX-uc-1rb"/>
@@ -217,17 +293,21 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="EQi-oO-YII" firstAttribute="leading" secondItem="rAa-wT-mei" secondAttribute="leading" constant="15" id="4kJ-l9-rO1"/>
+                                    <constraint firstItem="e7J-MI-7OD" firstAttribute="trailing" secondItem="WUx-WC-jGd" secondAttribute="trailing" id="4sn-XY-pTp"/>
                                     <constraint firstItem="WUx-WC-jGd" firstAttribute="top" secondItem="rAa-wT-mei" secondAttribute="top" constant="15" id="5hS-0V-scc"/>
                                     <constraint firstAttribute="trailing" secondItem="N8m-Rw-gv5" secondAttribute="trailing" constant="15" id="5mS-0M-k6n"/>
-                                    <constraint firstAttribute="bottom" secondItem="N8m-Rw-gv5" secondAttribute="bottom" constant="15" id="7BN-5b-i1Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="e7J-MI-7OD" secondAttribute="bottom" constant="10" id="CLX-Lt-WwA"/>
                                     <constraint firstAttribute="trailing" secondItem="EQi-oO-YII" secondAttribute="trailing" constant="15" id="TJ8-Iv-WAy"/>
-                                    <constraint firstItem="N8m-Rw-gv5" firstAttribute="top" secondItem="EQi-oO-YII" secondAttribute="bottom" constant="15" id="UK6-g9-nN7"/>
+                                    <constraint firstItem="N8m-Rw-gv5" firstAttribute="top" secondItem="EQi-oO-YII" secondAttribute="bottom" constant="10" id="UK6-g9-nN7"/>
                                     <constraint firstItem="EQi-oO-YII" firstAttribute="top" secondItem="WUx-WC-jGd" secondAttribute="bottom" constant="15" id="Z1s-Xv-Yt8"/>
-                                    <constraint firstAttribute="trailing" secondItem="WUx-WC-jGd" secondAttribute="trailing" constant="15" id="ojw-gW-9n1"/>
+                                    <constraint firstAttribute="trailing" secondItem="e7J-MI-7OD" secondAttribute="trailing" id="dVH-SR-K0V"/>
+                                    <constraint firstItem="e7J-MI-7OD" firstAttribute="leading" secondItem="WUx-WC-jGd" secondAttribute="leading" id="dyp-ln-4Ds"/>
                                     <constraint firstItem="N8m-Rw-gv5" firstAttribute="leading" secondItem="rAa-wT-mei" secondAttribute="leading" constant="15" id="rd2-DV-fsc"/>
                                     <constraint firstItem="WUx-WC-jGd" firstAttribute="leading" secondItem="rAa-wT-mei" secondAttribute="leading" constant="15" id="tTm-uL-L4G"/>
+                                    <constraint firstItem="77c-ts-r1S" firstAttribute="top" secondItem="N8m-Rw-gv5" secondAttribute="bottom" constant="10" id="wug-9f-AI9"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="historyView" destination="N8m-Rw-gv5" id="7xN-eh-8Rj"/>
                                     <outlet property="priceView" destination="WUx-WC-jGd" id="hRX-jn-88H"/>
                                 </connections>
                             </view>
@@ -247,6 +327,7 @@
                     </view>
                     <connections>
                         <outlet property="bodyView" destination="rAa-wT-mei" id="rxE-Ti-SNg"/>
+                        <outlet property="footerView" destination="e7J-MI-7OD" id="IPW-Cp-anw"/>
                         <outlet property="headerView" destination="M67-kf-cZl" id="xQN-Jv-fRD"/>
                     </connections>
                 </viewController>

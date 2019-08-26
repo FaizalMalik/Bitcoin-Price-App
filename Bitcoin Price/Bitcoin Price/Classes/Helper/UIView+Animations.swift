@@ -2,8 +2,8 @@
 //  UIView+Animations.swift
 //  BitcoinPrice
 //
-//  Created by Faizal on 02/02/18.
-//  Copyright © 2018 Faizal . All rights reserved.
+//  Created by Faizal on 26/08/19.
+//  Copyright © 2019 Faizal . All rights reserved.
 //
 
 import Foundation

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		185BAAC723130752005CD275 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BAAC623130752005CD275 /* BalloonMarker.swift */; };
 		189C39452313B351009CC6EC /* BodyHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39442313B351009CC6EC /* BodyHistoryView.swift */; };
+		189C39472313B867009CC6EC /* HistoricPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39462313B867009CC6EC /* HistoricPriceService.swift */; };
+		189C394A2313B895009CC6EC /* HistoricPriceApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39482313B895009CC6EC /* HistoricPriceApiRouter.swift */; };
+		189C394B2313B895009CC6EC /* HistoricPriceApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C39492313B895009CC6EC /* HistoricPriceApiService.swift */; };
 		18CEA26D23112D3300C3AB9D /* LineChartViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA26C23112D3300C3AB9D /* LineChartViewExtension.swift */; };
 		18CEA2932312265600C3AB9D /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2902312265600C3AB9D /* RequestHandler.swift */; };
 		18CEA2942312265600C3AB9D /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA2912312265600C3AB9D /* RequestService.swift */; };
@@ -91,6 +94,9 @@
 /* Begin PBXFileReference section */
 		185BAAC623130752005CD275 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
 		189C39442313B351009CC6EC /* BodyHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyHistoryView.swift; sourceTree = "<group>"; };
+		189C39462313B867009CC6EC /* HistoricPriceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceService.swift; sourceTree = "<group>"; };
+		189C39482313B895009CC6EC /* HistoricPriceApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceApiRouter.swift; sourceTree = "<group>"; };
+		189C39492313B895009CC6EC /* HistoricPriceApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricPriceApiService.swift; sourceTree = "<group>"; };
 		18CEA26C23112D3300C3AB9D /* LineChartViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartViewExtension.swift; sourceTree = "<group>"; };
 		18CEA2902312265600C3AB9D /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		18CEA2912312265600C3AB9D /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
@@ -329,6 +335,7 @@
 			children = (
 				F877E0B52024AD1B002E955B /* Service.swift */,
 				F877E0B32024AD05002E955B /* CurrentPriceService.swift */,
+				189C39462313B867009CC6EC /* HistoricPriceService.swift */,
 				F8A704BA201C9FCD0015C071 /* API */,
 			);
 			path = Service;
@@ -407,6 +414,8 @@
 			isa = PBXGroup;
 			children = (
 				F8A704BF201CA8C60015C071 /* ApiService.swift */,
+				189C39482313B895009CC6EC /* HistoricPriceApiRouter.swift */,
+				189C39492313B895009CC6EC /* HistoricPriceApiService.swift */,
 				F8A704C1201CA9D00015C071 /* CurrentPriceApiRouter.swift */,
 				F8A704BD201CA8870015C071 /* CurrentPriceApiService.swift */,
 			);
@@ -739,6 +748,7 @@
 			files = (
 				18CEA29A2312266600C3AB9D /* Result.swift in Sources */,
 				F8566EFB201B2F3A005E9950 /* CardView.swift in Sources */,
+				189C394B2313B895009CC6EC /* HistoricPriceApiService.swift in Sources */,
 				F8A704CA201CB48A0015C071 /* HistoricPrice.swift in Sources */,
 				F8566F11201BBD0E005E9950 /* ReferenceType.swift in Sources */,
 				18CEA26D23112D3300C3AB9D /* LineChartViewExtension.swift in Sources */,
@@ -776,10 +786,12 @@
 				F8A704B5201C97E60015C071 /* FooterView.swift in Sources */,
 				F8566F27201C0E54005E9950 /* UIView+Shadow.swift in Sources */,
 				F8566EF9201B2EAC005E9950 /* UIColor+App.swift in Sources */,
+				189C394A2313B895009CC6EC /* HistoricPriceApiRouter.swift in Sources */,
 				F87C6AF4201AC55A00BB968F /* UIFont+App.swift in Sources */,
 				F8566F09201B85F4005E9950 /* String+Localized.swift in Sources */,
 				189C39452313B351009CC6EC /* BodyHistoryView.swift in Sources */,
 				18CEA2942312265600C3AB9D /* RequestService.swift in Sources */,
+				189C39472313B867009CC6EC /* HistoricPriceService.swift in Sources */,
 				F8566F13201BC0CB005E9950 /* Date+Formatter.swift in Sources */,
 				F8A704C4201CB1700015C071 /* Bundle+InfoPlist.swift in Sources */,
 				18CEA2972312265F00C3AB9D /* ParserHelper.swift in Sources */,
