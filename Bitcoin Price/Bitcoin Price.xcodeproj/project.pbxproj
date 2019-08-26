@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CEA26B2311128200C3AB9D /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CEA26A2311128200C3AB9D /* Fonts.bundle */; };
+		18CEA27123117AF400C3AB9D /* ParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA27023117AF400C3AB9D /* ParserHelper.swift */; };
+		18CEA27623117B0600C3AB9D /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA27323117B0600C3AB9D /* RequestService.swift */; };
+		18CEA27723117B0600C3AB9D /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA27423117B0600C3AB9D /* RequestHandler.swift */; };
+		18CEA27823117B0600C3AB9D /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA27523117B0600C3AB9D /* RequestFactory.swift */; };
+		18CEA27C23117B1B00C3AB9D /* ErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA27A23117B1B00C3AB9D /* ErrorResult.swift */; };
+		18CEA27D23117B1B00C3AB9D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA27B23117B1B00C3AB9D /* Result.swift */; };
+		18CEA27F23117B7700C3AB9D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA27E23117B7600C3AB9D /* Reachability.swift */; };
 		18EA63282310FF06000C11DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA63272310FF06000C11DE /* AppDelegate.swift */; };
 		18EA632A2310FF06000C11DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA63292310FF06000C11DE /* ViewController.swift */; };
 		18EA632D2310FF06000C11DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA632B2310FF06000C11DE /* Main.storyboard */; };
@@ -38,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18CEA26A2311128200C3AB9D /* Fonts.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Fonts.bundle; sourceTree = "<group>"; };
+		18CEA27023117AF400C3AB9D /* ParserHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserHelper.swift; sourceTree = "<group>"; };
+		18CEA27323117B0600C3AB9D /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		18CEA27423117B0600C3AB9D /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		18CEA27523117B0600C3AB9D /* RequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		18CEA27A23117B1B00C3AB9D /* ErrorResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResult.swift; sourceTree = "<group>"; };
+		18CEA27B23117B1B00C3AB9D /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		18CEA27E23117B7600C3AB9D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		18EA63242310FF06000C11DE /* Bitcoin Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EA63272310FF06000C11DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EA63292310FF06000C11DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +107,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18CEA26F23117AE900C3AB9D /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				18CEA27023117AF400C3AB9D /* ParserHelper.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		18CEA27223117AF900C3AB9D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				18CEA27523117B0600C3AB9D /* RequestFactory.swift */,
+				18CEA27323117B0600C3AB9D /* RequestService.swift */,
+				18CEA27423117B0600C3AB9D /* RequestHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		18CEA27923117B0E00C3AB9D /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				18CEA27A23117B1B00C3AB9D /* ErrorResult.swift */,
+				18CEA27B23117B1B00C3AB9D /* Result.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 		18EA631B2310FF06000C11DE = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +224,9 @@
 		18EA635C2311002D000C11DE /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				18CEA27923117B0E00C3AB9D /* Result */,
+				18CEA27223117AF900C3AB9D /* Network */,
+				18CEA26F23117AE900C3AB9D /* Parser */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -188,6 +234,8 @@
 		18EA635D2311006C000C11DE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18CEA27E23117B7600C3AB9D /* Reachability.swift */,
+				18CEA26A2311128200C3AB9D /* Fonts.bundle */,
 				18EA632E2310FF06000C11DE /* Bitcoin_Price.xcdatamodeld */,
 			);
 			path = Resources;
@@ -227,7 +275,7 @@
 				18EA63202310FF06000C11DE /* Sources */,
 				18EA63212310FF06000C11DE /* Frameworks */,
 				18EA63222310FF06000C11DE /* Resources */,
-				0288A5024E2EFE85EEFA60DF /* [CP] Embed Pods Frameworks */,
+				8E812459C7D0A4BE8AF43362 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EA63352310FF06000C11DE /* LaunchScreen.storyboard in Resources */,
+				18CEA26B2311128200C3AB9D /* Fonts.bundle in Resources */,
 				18EA63322310FF06000C11DE /* Assets.xcassets in Resources */,
 				18EA632D2310FF06000C11DE /* Main.storyboard in Resources */,
 			);
@@ -347,23 +396,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0288A5024E2EFE85EEFA60DF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		495317EECDF4F04CB20CD92F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +416,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E812459C7D0A4BE8AF43362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoin Price/Pods-Bitcoin Price-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E92963DE904B4D295BC50B6 /* [CP] Check Pods Manifest.lock */ = {
@@ -437,8 +486,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CEA27D23117B1B00C3AB9D /* Result.swift in Sources */,
 				18EA632A2310FF06000C11DE /* ViewController.swift in Sources */,
 				18EA63302310FF06000C11DE /* Bitcoin_Price.xcdatamodeld in Sources */,
+				18CEA27723117B0600C3AB9D /* RequestHandler.swift in Sources */,
+				18CEA27823117B0600C3AB9D /* RequestFactory.swift in Sources */,
+				18CEA27123117AF400C3AB9D /* ParserHelper.swift in Sources */,
+				18CEA27C23117B1B00C3AB9D /* ErrorResult.swift in Sources */,
+				18CEA27623117B0600C3AB9D /* RequestService.swift in Sources */,
+				18CEA27F23117B7700C3AB9D /* Reachability.swift in Sources */,
 				18EA63282310FF06000C11DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
