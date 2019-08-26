@@ -29,8 +29,7 @@ class BodyPriceView: UIView {
         super.awakeFromNib()
         self.updatedLabel.text = "-"
         self.priceLabel.text = "-"
-        self.hrsLabel.isHidden = true
-        self.yesterChanges.isHidden = true
+
         
         
         let pastelView = PastelView(frame: self.bounds)

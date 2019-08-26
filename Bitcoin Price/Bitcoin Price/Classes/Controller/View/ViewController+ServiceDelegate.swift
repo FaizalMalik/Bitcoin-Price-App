@@ -55,7 +55,8 @@ extension ViewController: HistoricPriceServiceDelegate {
         
         bodyView.historyView.setLoaded(true)
         bodyView.historyView.setPrices(firstPrice: firsPrice, lastPrice: lastPrice)
-        bodyView.priceView.setPriceYesterday(lastPrice)
+        //TODO: Uncomment this line after completing the 24 hours price change functionality
+        //bodyView.priceView.setPriceYesterday(lastPrice)
         bodyView.historyView.setChartData(reference: ref, values: values)
         bodyView.historyView.spinnerView.hide()
         
