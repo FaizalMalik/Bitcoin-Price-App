@@ -33,16 +33,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8D9D9BF201A925A002F2DCC"
-               BuildableName = "Bitcoin PriceTests.xctest"
-               BlueprintName = "Bitcoin PriceTests"
-               ReferencedContainer = "container:Bitcoin Price.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8D9D9CA201A925A002F2DCC"
                BuildableName = "Bitcoin PriceUITests.xctest"
                BlueprintName = "Bitcoin PriceUITests"
@@ -56,6 +46,16 @@
                BlueprintIdentifier = "F83587712027AD4D00D3D375"
                BuildableName = "SnapshotUITests.xctest"
                BlueprintName = "SnapshotUITests"
+               ReferencedContainer = "container:Bitcoin Price.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F8D9D9BF201A925A002F2DCC"
+               BuildableName = "Bitcoin PriceTests.xctest"
+               BlueprintName = "Bitcoin PriceTests"
                ReferencedContainer = "container:Bitcoin Price.xcodeproj">
             </BuildableReference>
          </TestableReference>
